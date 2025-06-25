@@ -42,6 +42,12 @@
                         <Text text="{Tplnr}" wrapping="false" />
                     </t:template>
                 </t:Column>
+                <t:Column width="20rem" sortProperty="PltxtTplnr" filterProperty="PltxtTplnr" autoResizable="true">
+                    <Label text="Descr. Tipo Nota" />
+                    <t:template>
+                        <Text text="{PltxtTplnr}" wrapping="false" />
+                    </t:template>
+                </t:Column>
             </t:columns>
         </t:Table>
     </Page>
