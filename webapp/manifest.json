@@ -33,6 +33,10 @@
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "2.0"
         }
+      },
+      "usuarios": {
+        "uri": "model/Usuarios.json",
+        "type": "JSON"
       }
     }
   },
@@ -71,6 +75,10 @@
         "settings": {
           "bundleName": "br.com.petrobras.yspmtestenota.i18n.i18n"
         }
+      },
+      "usuarios": {
+        "type": "sap.ui.model.json.JSONModel",
+        "dataSource": "usuarios"
       },
       "": {
         "dataSource": "mainService",
