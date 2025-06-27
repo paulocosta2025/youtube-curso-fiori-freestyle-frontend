@@ -1,54 +1,41 @@
 <mvc:View controllerName="br.com.petrobras.yspmtestenota.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns:t="sap.ui.table"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-        <Button text="Hello World" press="onPress"></Button>
-
-        <VBox class="sapUITinyMargin">
-            <Label text="Nota"/>
-            <Input />
-        </VBox>
-
-        <t:Table id="table1"
-            rows="{/NotasPmSub}"
-            visibleRowCount="10"
-            threshold="10"
-            class="sapUITinyMargin"
-            selectionMode="MultiToggle">
-
-            <t:toolbar>
-                <OverflowToolbar>
-                    <Title id="title" text="Notas"></Title>
-                </OverflowToolbar>
-            </t:toolbar>
-
-            <t:columns>
-                <t:Column width="4rem" sortProperty="Nota">
-                    <Label text="Nota" />
-                    <t:template>
-                        <Text text="{Nota}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-                <t:Column width="10rem" sortProperty="SwerkUnidade" filterProperty="SwerkUnidade" autoResizable="true">
-                    <Label text="Unidade" />
-                    <t:template>
-                        <Text text="{SwerkUnidade}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-                <t:Column width="10rem" sortProperty="Tplnr" filterProperty="Tplnr" autoResizable="true">
-                    <Label text="Local instal." />
-                    <t:template>
-                        <Text text="{Tplnr}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-                <t:Column width="20rem" sortProperty="PltxtTplnr" filterProperty="PltxtTplnr" autoResizable="true">
-                    <Label text="Descr. Tipo Nota" />
-                    <t:template>
-                        <Text text="{PltxtTplnr}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-            </t:columns>
-        </t:Table>
-    </Page>
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormDisplay354wide"
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="Calculadora de Notas"
+			labelSpanXL="4"
+			labelSpanL="3"
+			labelSpanM="4"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="4"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<Label text="1o Bimestre" />
+				<Input value = "" id="b1"/>
+				<Label text="2o Bimestre" />
+				<Input value = "" id="b2"/>
+				<Label text="3o Bimestre" />
+				<Input value = "" id="b3"/>
+				<Label text="4o Bimestre" />
+				<Input value = "" id="b4"/>
+				<Label text="Resultado" />
+				<Input value = "" id="resultado" editable="false"/>
+				<Label text="" />
+				<Button text="Calcular" press="onCalcular"/>
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
 </mvc:View>
