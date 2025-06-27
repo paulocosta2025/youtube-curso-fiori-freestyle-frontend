@@ -1,0 +1,82 @@
+[
+    {
+        "NotificationType": "NN",
+        "NotificationType_Text": "NotificationType_Te1"
+    },
+    {
+        "NotificationType": "uU",
+        "NotificationType_Text": "NotificationType_Te2"
+    },
+    {
+        "NotificationType": "tY",
+        "NotificationType_Text": "NotificationType_Te3"
+    },
+    {
+        "NotificationType": "jZ",
+        "NotificationType_Text": "NotificationType_Te4"
+    },
+    {
+        "NotificationType": "sa",
+        "NotificationType_Text": "NotificationType_Te5"
+    },
+    {
+        "NotificationType": "uA",
+        "NotificationType_Text": "NotificationType_Te6"
+    },
+    {
+        "NotificationType": "HA",
+        "NotificationType_Text": "NotificationType_Te7"
+    },
+    {
+        "NotificationType": "rN",
+        "NotificationType_Text": "NotificationType_Te8"
+    },
+    {
+        "NotificationType": "JO",
+        "NotificationType_Text": "NotificationType_Te9"
+    },
+    {
+        "NotificationType": "AZ",
+        "NotificationType_Text": "NotificationType_T10"
+    },
+    {
+        "NotificationType": "NS",
+        "NotificationType_Text": "NotificationType_T11"
+    },
+    {
+        "NotificationType": "hE",
+        "NotificationType_Text": "NotificationType_T12"
+    },
+    {
+        "NotificationType": "Dd",
+        "NotificationType_Text": "NotificationType_T13"
+    },
+    {
+        "NotificationType": "Mo",
+        "NotificationType_Text": "NotificationType_T14"
+    },
+    {
+        "NotificationType": "ca",
+        "NotificationType_Text": "NotificationType_T15"
+    },
+    {
+        "NotificationType": "Tn",
+        "NotificationType_Text": "NotificationType_T16"
+    },
+    {
+        "NotificationType": "To",
+        "NotificationType_Text": "NotificationType_T17"
+    },
+    {
+        "NotificationType": "Em",
+        "NotificationType_Text": "NotificationType_T18"
+    },
+    {
+        "NotificationType": "GP",
+        "NotificationType_Text": "NotificationType_T19"
+    },
+    {
+        "NotificationType": "Kh",
+        "NotificationType_Text": "NotificationType_T20"
+    }
+]
