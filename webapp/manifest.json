@@ -37,6 +37,10 @@
       "usuarios": {
         "uri": "model/Usuarios.json",
         "type": "JSON"
+      },
+      "formularios":{
+        "uri": "model/Formularios.json",
+        "type": "JSON"
       }
     }
   },
@@ -79,6 +83,10 @@
       "usuarios": {
         "type": "sap.ui.model.json.JSONModel",
         "dataSource": "usuarios"
+      },
+      "formularios":{  
+        "type": "sap.ui.model.json.JSONModel",
+        "dataSource": "formularios"
       },
       "": {
         "dataSource": "mainService",
